@@ -22,7 +22,7 @@ public class Armor {
     static RegistryKey<? extends Registry<EquipmentAsset>> REGISTRY_KEY = RegistryKey.ofRegistry(Identifier.ofVanilla("equipment_asset"));
     public static final RegistryKey<EquipmentAsset> TITANIUM_KEY = RegistryKey.of(REGISTRY_KEY, Identifier.of(FirstMod.MOD_ID, "titanium"));
 
-    public static final ArmorMaterial TITANIUM = new ArmorMaterial(400,createArmorType(4,7,9,4),20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.5f,0.1f, ModTags.Items.TITANIUM_REPAIR,TITANIUM_KEY);
+    public static final ArmorMaterial TITANIUM_ARMOR_MATERIAL = new ArmorMaterial(450,createArmorType(4,7,9,4),20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,2.5f,0.1f, ModTags.Items.TITANIUM_REPAIR,TITANIUM_KEY);
 
     public static ArmorMaterial createArmorMaterial(int Durability, Map<EquipmentType,Integer> DefenseMap, int EnchantmentLuck, RegistryEntry<SoundEvent> ItemEquipSound, float Toughness, float KnockbackResistance, TagKey<Item> ItemTag, RegistryKey<EquipmentAsset> RegistryKey){
         return new ArmorMaterial(Durability,DefenseMap,EnchantmentLuck,ItemEquipSound,Toughness,KnockbackResistance,ItemTag,RegistryKey);

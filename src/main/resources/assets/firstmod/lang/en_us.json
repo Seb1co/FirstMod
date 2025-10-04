@@ -1,3 +1,8 @@
 {
-  "item.firstmod.titanium": "Titanium"
+  "item.firstmod.titanium": "Titanium",
+  "item.firstmod.titanium_boots": "Titanium Boots",
+  "item.firstmod.titanium_chestplate": "Titanium Chestplate",
+  "item.firstmod.titanium_leggings": "Titanium Leggings",
+  "item.firstmod.titanium_helmet": "Titanium Helmet",
+  "block.firstmod.titanium_block": "Titanium Block"
 }

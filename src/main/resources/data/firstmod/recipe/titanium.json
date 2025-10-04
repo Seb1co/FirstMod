@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "ingredients",
+  "key": {
+    "T": "firstmod:titanium_block"
+  },
+  "pattern": [
+    "T"
+  ],
+  "result": {
+    "count": 9,
+    "id": "firstmod:titanium"
+  }
+}
