@@ -18,7 +18,7 @@ import net.sebi.firstmod.FirstMod;
 import java.util.function.Function;
 
 public class ModBlocks {
-    private static final Block TITANIUM_BLOCK = register("titanium_block",Block::new,
+    public static final Block TITANIUM_BLOCK = register("titanium_block",Block::new,
             AbstractBlock.Settings.create().strength(15f, 1000f).requiresTool().sounds(BlockSoundGroup.IRON),true);
 
 

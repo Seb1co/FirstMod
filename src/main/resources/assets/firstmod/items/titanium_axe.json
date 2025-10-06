@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type" : "minecraft:model",
+        "model": "firstmod:item/titanium_axe"
+
+    }
+}
