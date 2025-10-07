@@ -6,4 +6,4 @@ Then a folder named build will appear then open build\libs and there will be you
 The titanium ore can only be found at the deepslate level in the overworld(between -80 and -10,usually at -45 and around it).</br>
 It has a 1 to 2 ore drops chance(with fortune maybe 1-8).</br>
 Unfortunately I'm not the best artist,so the titanium ore look a little bit like the deepslate.Hope you'll see it :).</br>
-All the photos can be found in the src/main/resources/textures,  and the mod code can be found in the src/main/jave/net/sebi/firstmod.</br>
+All the photos(textures) can be found in the src/main/resources/textures,  and the mod code can be found in the src/main/jave/net/sebi/firstmod.</br>
