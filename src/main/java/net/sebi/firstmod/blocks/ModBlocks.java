@@ -20,6 +20,8 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block TITANIUM_BLOCK = register("titanium_block",Block::new,
             AbstractBlock.Settings.create().strength(15f, 1000f).requiresTool().sounds(BlockSoundGroup.IRON),true);
+    public static final Block TITANIUM_ORE = register("titanium_ore", Block::new,
+            AbstractBlock.Settings.create().strength(10f,800f).requiresTool().sounds(BlockSoundGroup.STONE),true);
 
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {

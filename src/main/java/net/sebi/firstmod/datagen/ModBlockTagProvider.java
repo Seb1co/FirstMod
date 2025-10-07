@@ -2,6 +2,7 @@ package net.sebi.firstmod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.sebi.firstmod.blocks.ModBlocks;
@@ -18,13 +19,17 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         valueLookupBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.TITANIUM_BLOCK);
+                .add(ModBlocks.TITANIUM_BLOCK)
+                .add(ModBlocks.TITANIUM_ORE);
 
         valueLookupBuilder(ModTags.Blocks.incorrectBlocksForTitanium)
                 .forceAddTag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL);
 
         valueLookupBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.TITANIUM_BLOCK);
+
+        valueLookupBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.TITANIUM_ORE);
 
         valueLookupBuilder(ModTags.Blocks.NEEDS_TITANIUM_TOOL)
                 .forceAddTag(BlockTags.NEEDS_DIAMOND_TOOL)
